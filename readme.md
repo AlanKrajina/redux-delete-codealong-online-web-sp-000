@@ -194,7 +194,7 @@ export default function manageTodo(state = {
 ```
 
 Using `uuid()` will generate a long random string each
-time a todo is created. Now, instead of just storing an array of strings in our store, 
+time a todo is created. Now, instead of just storing an array of strings in our store,
 we'll be storing an array of objects.
 
 This causes a problem 'downstream', though: we need to update our TodosContainer
